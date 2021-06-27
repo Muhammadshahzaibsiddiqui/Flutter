@@ -9,7 +9,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        body: Text("Name: Muhammad Shahzaib Siddiqui\nEmail: s.zaib356@gmail.com",style: TextStyle(fontSize: 16.0 ,fontWeight:FontWeight.bold,color: Colors.black)),
+        body: Text(
+            "Name: Muhammad Shahzaib Siddiqui\nEmaill: s.zaib356@gmail.com",
+            style: TextStyle(
+                fontSize: 16.0,
+                fontWeight: FontWeight.bold,
+                color: Colors.black)),
       ),
     );
   }
